@@ -7,7 +7,7 @@ $(document).ready(function(){
     var Phone = $("input#phone-number").val();
     var Address = $("input#billing-address").val();
 
-    $(".name").append(Name);
+    $(".name2").append(Name);
     $(".email").append(Email);
     $(".phone").append(Phone);
     $(".address").append(Address);

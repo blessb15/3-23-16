@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Survey</title>
+    <script src="jquery-1.12.2.js"></script>
+    <script src="scripts.js"></script>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Take the Survey!</h1>
+      <h2>Favorite Animal, ma'am?</h2>
+      <select class="form-control" id="animals">
+        <option>Horse</option>
+        <option>Turkey</option>
+        <option>Goat</option>
+      </select>
+
+      <h2>What is your flavorite flavor of Cactus my good sir?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="Cactus" checked>
+            Cactus
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="Lemon cactus">
+            Lemon Cactus
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="BBQ cactus">
+            BBQ Cactus
+          </label>
+        </div>
+
+        <button id="cactus" type="submit" name="button">save</button>
+
+      <div class="form-group">
+        <label for="born">Date of birth:</label>
+        <input type="date" id="born" class="form-control">
+      </div>
+
+      <div class="output">
+
+
+
+      </div>
+
+
+    </div>
+
+  </body>
+</html>
